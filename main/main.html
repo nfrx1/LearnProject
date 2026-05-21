@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn</title>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <h1>Learn</h1>
+        <div class="search-wrapper">
+            <img src="../assets/search.png" height="24px" width="24px" class="search-icon">
+            <input placeholder="write a text to search for" class="search" oninput="searchVideos()" id="search"/>
+        </div>
+    </header>
+    <div class="table-container">
+        <table id="videos" class="videos" cellspacing="87">
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
